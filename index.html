@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Las Rosas Hotel & Spa. Masajes, faciales, hidroterapia, jacuzzi y experiencias para parejas." />
+  <title>Las Rosas Hotel & Spa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Las Rosas Hotel & Spa">
+      <span class="brand-mark">◖</span>
+      <span><strong>LAS ROSAS</strong><small>HOTEL & SPA</small></span>
+    </a>
+
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">☰</button>
+
+    <nav id="main-nav" class="main-nav">
+      <a href="#inicio" data-i18n="nav.home">Inicio</a>
+      <a href="#servicios" data-i18n="nav.services">Servicios</a>
+      <a href="#ritual" data-i18n="nav.ritual">Ducha Vichy</a>
+      <a href="#paquetes" data-i18n="nav.packages">Paquetes</a>
+      <a href="#galeria" data-i18n="nav.gallery">Galería</a>
+      <a href="#informacion" data-i18n="nav.info">Información</a>
+      <a href="#contacto" data-i18n="nav.contact">Contacto</a>
+    </nav>
+
+    <div class="header-actions">
+      <button id="lang-toggle" class="lang-button" aria-label="Cambiar idioma">EN</button>
+      <a class="button button-primary header-book" href="https://wa.me/526461744310" target="_blank" rel="noopener" data-i18n="actions.book">Reservar</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero" aria-label="Galería principal">
+      <div class="hero-track">
+        <article class="hero-slide active" style="background-image:linear-gradient(90deg,rgba(19,30,28,.82),rgba(19,30,28,.15)),url('assets/images/vichy.webp')">
+          <div class="hero-content">
+            <p class="eyebrow" data-i18n="hero.eyebrow">Bienestar frente al mar</p>
+            <h1 data-i18n="hero.title">Relájate, disfruta y renueva tu energía</h1>
+            <p data-i18n="hero.text">Vive una experiencia diseñada para cuidar tu cuerpo y tu mente.</p>
+            <div class="hero-buttons">
+              <a class="button button-primary" href="#servicios" data-i18n="actions.services">Ver servicios</a>
+              <a class="button button-light" href="https://wa.me/526461744310" target="_blank" rel="noopener" data-i18n="actions.whatsapp">WhatsApp</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="hero-slide" style="background-image:linear-gradient(90deg,rgba(19,30,28,.76),rgba(19,30,28,.12)),url('assets/images/couples_3.webp')">
+          <div class="hero-content">
+            <p class="eyebrow" data-i18n="hero2.eyebrow">Un momento para dos</p>
+            <h2 data-i18n="hero2.title">Experiencias de relajación en pareja</h2>
+            <p data-i18n="hero2.text">Masajes, jacuzzi privado y una atmósfera tranquila para reconectar.</p>
+            <a class="button button-primary" href="#paquetes" data-i18n="actions.packages">Ver paquetes</a>
+          </div>
+        </article>
+
+        <article class="hero-slide" style="background-image:linear-gradient(90deg,rgba(19,30,28,.72),rgba(19,30,28,.08)),url('assets/images/jacuzzi.webp')">
+          <div class="hero-content">
+            <p class="eyebrow" data-i18n="hero3.eyebrow">Hidroterapia</p>
+            <h2 data-i18n="hero3.title">El poder restaurador del agua</h2>
+            <p data-i18n="hero3.text">Jacuzzi, sales detox y ducha Vichy para revitalizar cuerpo y mente.</p>
+            <a class="button button-primary" href="#ritual" data-i18n="actions.discover">Descubrir</a>
+          </div>
+        </article>
+      </div>
+
+      <button class="hero-arrow prev" aria-label="Anterior">‹</button>
+      <button class="hero-arrow next" aria-label="Siguiente">›</button>
+      <div class="hero-dots" aria-label="Selector de fotografías"></div>
+    </section>
+
+    <section class="values">
+      <article><span>◌</span><strong data-i18n="values.wellbeing">Bienestar</strong><small data-i18n="values.wellbeingText">Equilibrio para cuerpo y mente</small></article>
+      <article><span>◔</span><strong data-i18n="values.relax">Relajación</strong><small data-i18n="values.relaxText">Ambientes diseñados para ti</small></article>
+      <article><span>≈</span><strong data-i18n="values.renew">Renovación</strong><small data-i18n="values.renewText">Tratamientos que revitalizan</small></article>
+      <article><span>♡</span><strong data-i18n="values.balance">Balance</strong><small data-i18n="values.balanceText">Armonía y cuidado integral</small></article>
+    </section>
+
+    <section id="servicios" class="section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="services.eyebrow">Menú de bienestar</p>
+        <h2 data-i18n="services.title">Nuestros servicios</h2>
+        <p data-i18n="services.text">Selecciona una categoría para consultar opciones, duración, precio y descripción.</p>
+      </div>
+
+      <div class="service-tabs" role="tablist">
+        <button class="service-tab active" data-category="facials" data-i18n="categories.facials">Faciales</button>
+        <button class="service-tab" data-category="massages" data-i18n="categories.massages">Masajes</button>
+        <button class="service-tab" data-category="body" data-i18n="categories.body">Tratamientos corporales</button>
+        <button class="service-tab" data-category="baths" data-i18n="categories.baths">Baños y jacuzzi</button>
+      </div>
+
+      <div id="service-grid" class="service-grid" aria-live="polite"></div>
+    </section>
+
+    <section id="ritual" class="section ritual-section">
+      <div class="ritual-image">
+        <img src="assets/images/vichy.webp" alt="Sala de ducha Vichy" loading="lazy">
+      </div>
+      <div class="ritual-content">
+        <p class="eyebrow" data-i18n="ritual.eyebrow">Experiencia de hidroterapia</p>
+        <h2 data-i18n="ritual.title">Ritual Ducha Vichy</h2>
+        <p data-i18n="ritual.text">Una secuencia diseñada para renovar la piel, liberar tensión y completar la experiencia con agua a presión.</p>
+
+        <div class="steps">
+          <article><span>1</span><strong data-i18n="ritual.step1">Vichy Shower + cepillado corporal</strong><small>35 min · $90 USD</small></article>
+          <div class="step-line">→</div>
+          <article><span>2</span><strong data-i18n="ritual.step2">Exfoliación corporal</strong><small>50 min · $120 USD aprox.</small></article>
+          <div class="step-line">→</div>
+          <article><span>3</span><strong data-i18n="ritual.step3">Exfoliación + masaje + Vichy</strong><small>60 min · $160 USD</small></article>
+        </div>
+
+        <div class="aromas">
+          <h3 data-i18n="ritual.options">Opciones para la exfoliación</h3>
+          <div class="chips">
+            <span data-i18n="aromas.lavender">Lavanda</span>
+            <span data-i18n="aromas.roses">Rosas</span>
+            <span data-i18n="aromas.coffee">Café</span>
+            <span data-i18n="aromas.orange">Naranja</span>
+            <span data-i18n="aromas.berries">Frutos rojos</span>
+            <span data-i18n="aromas.wine">Vino</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="paquetes" class="section package-section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="packages.eyebrow">Para compartir</p>
+        <h2 data-i18n="packages.title">Paquetes destacados</h2>
+      </div>
+
+      <div class="package-grid">
+        <article class="package-card">
+          <img src="assets/images/jacuzzi.webp" alt="Jacuzzi privado" loading="lazy">
+          <div>
+            <p class="eyebrow" data-i18n="packages.couple">En pareja</p>
+            <h3>Romántico Relax</h3>
+            <p data-i18n="packages.romanticText">Masaje relajante, mascarilla hidratante de línea exclusiva y baño detox con sales en jacuzzi.</p>
+            <div class="package-meta"><span>110 min</span><strong>$380 USD</strong></div>
+          </div>
+        </article>
+
+        <article class="package-card">
+          <img src="assets/images/couples_2.webp" alt="Sala de masaje para pareja" loading="lazy">
+          <div>
+            <p class="eyebrow" data-i18n="packages.couple">En pareja</p>
+            <h3>Renuévate</h3>
+            <p data-i18n="packages.renewText">Masaje terapéutico de 50 minutos y baño detox con sales en jacuzzi por 30 minutos.</p>
+            <div class="package-meta"><span>80 min</span><strong>$290 USD</strong></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="galeria" class="section gallery-section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="gallery.eyebrow">Conoce el espacio</p>
+        <h2 data-i18n="gallery.title">Galería</h2>
+      </div>
+      <div class="gallery-grid">
+        <button class="gallery-item" data-full="assets/images/reception.webp"><img src="assets/images/reception.webp" alt="Recepción del spa" loading="lazy"></button>
+        <button class="gallery-item" data-full="assets/images/hall.webp"><img src="assets/images/hall.webp" alt="Pasillo interior" loading="lazy"></button>
+        <button class="gallery-item" data-full="assets/images/massage_single_1.webp"><img src="assets/images/massage_single_1.webp" alt="Cabina de masaje individual" loading="lazy"></button>
+        <button class="gallery-item" data-full="assets/images/vichy.webp"><img src="assets/images/vichy.webp" alt="Sala de hidroterapia" loading="lazy"></button>
+        <button class="gallery-item" data-full="assets/images/jacuzzi.webp"><img src="assets/images/jacuzzi.webp" alt="Jacuzzi" loading="lazy"></button>
+        <button class="gallery-item" data-full="assets/images/couples_4.webp"><img src="assets/images/couples_4.webp" alt="Sala de masaje en pareja" loading="lazy"></button>
+      </div>
+    </section>
+
+
+    <section id="informacion" class="section info-section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="info.eyebrow">Antes de tu visita</p>
+        <h2 data-i18n="info.title">Información importante</h2>
+        <p data-i18n="info.intro">Para disfrutar plenamente tu experiencia, toma en cuenta las siguientes recomendaciones.</p>
+      </div>
+
+      <div class="info-grid">
+        <article class="info-card">
+          <span class="info-icon">⏰</span>
+          <h3 data-i18n="info.arrivalTitle">Llegada anticipada</h3>
+          <p data-i18n="info.arrivalText">Te solicitamos llegar al menos 15 minutos antes de tu cita para realizar tu registro y comenzar tu tratamiento puntualmente.</p>
+        </article>
+
+        <article class="info-card">
+          <span class="info-icon">◌</span>
+          <h3 data-i18n="info.swimTitle">Traje de baño</h3>
+          <p data-i18n="info.swimText">El uso de traje de baño es obligatorio para acceder al sauna y al jacuzzi.</p>
+        </article>
+
+        <article class="info-card policy-card">
+          <span class="info-icon">↺</span>
+          <h3 data-i18n="info.cancelTitle">Política de cancelación</h3>
+          <p data-i18n="info.cancelText">Solicitamos notificar cualquier cancelación o cambio de horario con un mínimo de 24 horas de anticipación. De lo contrario, se aplicará un cargo equivalente al 50% más IVA del valor del tratamiento no realizado.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact-section">
+      <div>
+        <p class="eyebrow" data-i18n="contact.eyebrow">Reserva tu momento</p>
+        <h2 data-i18n="contact.title">Estamos listos para recibirte</h2>
+        <p data-i18n="contact.text">Comunícate por WhatsApp para consultar disponibilidad y confirmar tu tratamiento.</p>
+      </div>
+      <div class="contact-buttons">
+        <a class="button button-primary" href="https://wa.me/526461744310" target="_blank" rel="noopener">(646) 174 43 10</a>
+        <a class="button button-outline" href="https://wa.me/526461744320" target="_blank" rel="noopener">(646) 174 43 20</a>
+        <a class="button button-outline" href="https://wa.me/526461744360" target="_blank" rel="noopener">(646) 174 43 60</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand footer-brand">
+      <span class="brand-mark">◖</span>
+      <span><strong>LAS ROSAS</strong><small>HOTEL & SPA</small></span>
+    </div>
+    <p data-i18n="footer.note">Página informativa. Precios sujetos a confirmación al reservar.</p>
+    <p>© <span id="year"></span> Las Rosas Hotel & Spa</p>
+  </footer>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Cerrar">×</button>
+    <button class="lightbox-nav lightbox-prev" aria-label="Foto anterior">‹</button>
+    <img src="" alt="">
+    <button class="lightbox-nav lightbox-next" aria-label="Foto siguiente">›</button>
+    <div class="lightbox-counter" aria-live="polite"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
