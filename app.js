@@ -1,7 +1,7 @@
 const translations = {
   es: {
     "nav.home":"Inicio","nav.services":"Servicios","nav.ritual":"Ducha Vichy","nav.packages":"Paquetes","nav.gallery":"Galería","nav.info":"Información","nav.contact":"Contacto",
-    "actions.book":"Reservar","actions.services":"Ver servicios","actions.whatsapp":"WhatsApp","actions.packages":"Ver paquetes","actions.discover":"Descubrir",
+    "actions.callToBook":"Llamar para reservar","actions.services":"Ver servicios","actions.call":"Llamar","actions.packages":"Ver paquetes","actions.discover":"Descubrir",
     "hero.eyebrow":"Bienestar frente al mar","hero.title":"Relájate, disfruta y renueva tu energía","hero.text":"Vive una experiencia diseñada para cuidar tu cuerpo y tu mente.",
     "hero2.eyebrow":"Un momento para dos","hero2.title":"Experiencias de relajación en pareja","hero2.text":"Masajes, jacuzzi privado y una atmósfera tranquila para reconectar.",
     "hero3.eyebrow":"Hidroterapia","hero3.title":"El poder restaurador del agua","hero3.text":"Jacuzzi, sales detox y ducha Vichy para revitalizar cuerpo y mente.",
@@ -13,13 +13,13 @@ const translations = {
     "aromas.lavender":"Lavanda","aromas.roses":"Rosas","aromas.coffee":"Café","aromas.orange":"Naranja","aromas.berries":"Frutos rojos","aromas.wine":"Vino",
     "packages.eyebrow":"Para compartir","packages.title":"Paquetes destacados","packages.couple":"En pareja","packages.romanticText":"Masaje relajante, mascarilla hidratante de línea exclusiva y baño detox con sales en jacuzzi.","packages.renewText":"Masaje terapéutico de 50 minutos y baño detox con sales en jacuzzi por 30 minutos.",
     "gallery.eyebrow":"Conoce el espacio","gallery.title":"Galería",
-    "info.eyebrow":"Antes de tu visita","info.title":"Información importante","info.intro":"Para disfrutar plenamente tu experiencia, toma en cuenta las siguientes recomendaciones.","info.arrivalTitle":"Llegada anticipada","info.arrivalText":"Te solicitamos llegar al menos 15 minutos antes de tu cita para realizar tu registro y comenzar tu tratamiento puntualmente.","info.swimTitle":"Traje de baño","info.swimText":"El uso de traje de baño es obligatorio para acceder al sauna y al jacuzzi.","info.cancelTitle":"Política de cancelación","info.cancelText":"Solicitamos notificar cualquier cancelación o cambio de horario con un mínimo de 24 horas de anticipación. De lo contrario, se aplicará un cargo equivalente al 50% más IVA del valor del tratamiento no realizado.",
-    "contact.eyebrow":"Reserva tu momento","contact.title":"Estamos listos para recibirte","contact.text":"Comunícate por WhatsApp para consultar disponibilidad y confirmar tu tratamiento.",
+    "info.eyebrow":"Antes de tu visita","info.title":"Información importante","info.intro":"Para disfrutar plenamente tu experiencia, toma en cuenta las siguientes recomendaciones.","info.arrivalTitle":"Llegada anticipada","info.arrivalText":"Te solicitamos llegar al menos 15 minutos antes de tu cita para realizar tu registro y comenzar tu tratamiento puntualmente.","info.swimTitle":"Traje de baño","info.swimText":"El uso de traje de baño es obligatorio para acceder al sauna y al jacuzzi.","info.cancelTitle":"Política de cancelación","info.cancelText":"Solicitamos notificar cualquier cancelación o cambio de horario con un mínimo de 24 horas de anticipación. De lo contrario, se aplicará un cargo equivalente al 50% del valor del tratamiento reservado, más IVA.",
+    "contact.eyebrow":"Reserva tu momento","contact.title":"Estamos listos para recibirte","contact.text":"Llámanos para consultar disponibilidad y confirmar tu tratamiento.",
     "footer.note":"Página informativa. Precios sujetos a confirmación al reservar."
   },
   en: {
     "nav.home":"Home","nav.services":"Services","nav.ritual":"Vichy Shower","nav.packages":"Packages","nav.gallery":"Gallery","nav.info":"Information","nav.contact":"Contact",
-    "actions.book":"Book now","actions.services":"View services","actions.whatsapp":"WhatsApp","actions.packages":"View packages","actions.discover":"Discover",
+    "actions.callToBook":"Call to book","actions.services":"View services","actions.call":"Call","actions.packages":"View packages","actions.discover":"Discover",
     "hero.eyebrow":"Wellness by the sea","hero.title":"Relax, enjoy and renew your energy","hero.text":"Enjoy an experience designed to care for your body and mind.",
     "hero2.eyebrow":"A moment for two","hero2.title":"Relaxing experiences for couples","hero2.text":"Massages, a private jacuzzi and a peaceful atmosphere to reconnect.",
     "hero3.eyebrow":"Hydrotherapy","hero3.title":"The restorative power of water","hero3.text":"Jacuzzi, detox salts and Vichy shower treatments to revitalize body and mind.",
@@ -31,8 +31,8 @@ const translations = {
     "aromas.lavender":"Lavender","aromas.roses":"Roses","aromas.coffee":"Coffee","aromas.orange":"Orange","aromas.berries":"Red berries","aromas.wine":"Wine",
     "packages.eyebrow":"To share","packages.title":"Featured packages","packages.couple":"For couples","packages.romanticText":"Relaxing massage, exclusive hydrating mask and detox salt bath in the jacuzzi.","packages.renewText":"50-minute therapeutic massage and a 30-minute detox salt bath in the jacuzzi.",
     "gallery.eyebrow":"Explore our space","gallery.title":"Gallery",
-    "info.eyebrow":"Before your visit","info.title":"Important information","info.intro":"To fully enjoy your experience, please keep the following recommendations in mind.","info.arrivalTitle":"Early arrival","info.arrivalText":"Please arrive at least 15 minutes before your appointment to complete check-in and begin your treatment on time.","info.swimTitle":"Swimsuit required","info.swimText":"A swimsuit is required to use the sauna and jacuzzi facilities.","info.cancelTitle":"Cancellation policy","info.cancelText":"Please provide at least 24 hours’ notice for any cancellation or schedule change. Otherwise, a fee equal to 50% of the missed treatment price, plus applicable taxes, will be charged.",
-    "contact.eyebrow":"Book your moment","contact.title":"We are ready to welcome you","contact.text":"Message us on WhatsApp to check availability and confirm your treatment.",
+    "info.eyebrow":"Before your visit","info.title":"Important information","info.intro":"To fully enjoy your experience, please keep the following recommendations in mind.","info.arrivalTitle":"Early arrival","info.arrivalText":"Please arrive at least 15 minutes before your appointment to complete check-in and begin your treatment on time.","info.swimTitle":"Swimsuit required","info.swimText":"A swimsuit is required to use the sauna and jacuzzi facilities.","info.cancelTitle":"Cancellation policy","info.cancelText":"Please provide at least 24 hours’ notice for any cancellation or appointment change. Otherwise, a cancellation fee equal to 50% of the scheduled treatment price, plus applicable taxes, will be charged.",
+    "contact.eyebrow":"Book your moment","contact.title":"We are ready to welcome you","contact.text":"Call us to check availability and confirm your treatment.",
     "footer.note":"Informational website. Prices are subject to confirmation when booking."
   }
 };
