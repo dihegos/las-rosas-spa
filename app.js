@@ -1,6 +1,6 @@
 const translations = {
   es: {
-    "nav.home":"Inicio","nav.services":"Servicios","nav.ritual":"Ducha Vichy","nav.packages":"Paquetes","nav.gallery":"Galería","nav.info":"Información","nav.contact":"Contacto",
+    "nav.home":"Inicio","nav.services":"Servicios","nav.ritual":"Ducha Vichy","nav.packages":"Paquetes","nav.gallery":"Galería","nav.info":"Información","nav.contact":"Contacto","nav.hotel":"Hotel y Restaurante",
     "actions.callToBook":"Llamar para reservar","actions.services":"Ver servicios","actions.call":"Llamar","actions.packages":"Ver paquetes","actions.discover":"Descubrir",
     "hero.eyebrow":"Bienestar frente al mar","hero.title":"Relájate, disfruta y renueva tu energía","hero.text":"Vive una experiencia diseñada para cuidar tu cuerpo y tu mente.",
     "hero2.eyebrow":"Relajación para compartir","hero2.title":"Experiencias individuales, en pareja y en grupo","hero2.text":"Contamos con cabinas individuales y para parejas, con capacidad para realizar hasta seis masajes simultáneamente en un ambiente cómodo, privado y relajante.",
@@ -15,10 +15,14 @@ const translations = {
     "gallery.eyebrow":"Conoce el espacio","gallery.title":"Galería",
     "info.eyebrow":"Antes de tu visita","info.title":"Información importante","info.intro":"Para disfrutar plenamente tu experiencia, toma en cuenta las siguientes recomendaciones.","info.arrivalTitle":"Llegada anticipada","info.arrivalText":"Te solicitamos llegar al menos 15 minutos antes de tu cita para realizar tu registro y comenzar tu tratamiento puntualmente.","info.swimTitle":"Traje de baño","info.swimText":"El uso de traje de baño es obligatorio para acceder al sauna y al jacuzzi.","info.cancelTitle":"Política de cancelación","info.cancelText":"Solicitamos notificar cualquier cancelación o cambio de horario con un mínimo de 24 horas de anticipación. De lo contrario, se aplicará un cargo equivalente al 50% del valor del tratamiento reservado, más IVA.",
     "contact.eyebrow":"Reserva tu momento","contact.title":"Estamos listos para recibirte","contact.text":"Llámanos para consultar disponibilidad y confirmar tu tratamiento.",
+    "footer.locationTitle":"Ubicación",
+    "footer.address":"Km. 105.5 Carretera Tijuana–Ensenada, El Sauzal, Ensenada, B.C.",
+    "footer.map":"Ver ubicación",
+    "footer.hotel":"Hotel y Restaurante",
     "footer.note":"Página informativa. Precios sujetos a confirmación al reservar."
   },
   en: {
-    "nav.home":"Home","nav.services":"Services","nav.ritual":"Vichy Shower","nav.packages":"Packages","nav.gallery":"Gallery","nav.info":"Information","nav.contact":"Contact",
+    "nav.home":"Home","nav.services":"Services","nav.ritual":"Vichy Shower","nav.packages":"Packages","nav.gallery":"Gallery","nav.info":"Information","nav.contact":"Contact","nav.hotel":"Hotel & Restaurant",
     "actions.callToBook":"Call to book","actions.services":"View services","actions.call":"Call","actions.packages":"View packages","actions.discover":"Discover",
     "hero.eyebrow":"Wellness by the sea","hero.title":"Relax, enjoy and renew your energy","hero.text":"Enjoy an experience designed to care for your body and mind.",
     "hero2.eyebrow":"Wellness to share","hero2.title":"Individual, couples and group experiences","hero2.text":"We offer private treatment rooms for individuals and couples, with capacity for up to six massages at the same time in a comfortable, private and relaxing atmosphere.",
@@ -33,6 +37,10 @@ const translations = {
     "gallery.eyebrow":"Explore our space","gallery.title":"Gallery",
     "info.eyebrow":"Before your visit","info.title":"Important information","info.intro":"To fully enjoy your experience, please keep the following recommendations in mind.","info.arrivalTitle":"Early arrival","info.arrivalText":"Please arrive at least 15 minutes before your appointment to complete check-in and begin your treatment on time.","info.swimTitle":"Swimsuit required","info.swimText":"A swimsuit is required to use the sauna and jacuzzi facilities.","info.cancelTitle":"Cancellation policy","info.cancelText":"Please provide at least 24 hours’ notice for any cancellation or appointment change. Otherwise, a cancellation fee equal to 50% of the scheduled treatment price, plus applicable taxes, will be charged.",
     "contact.eyebrow":"Book your moment","contact.title":"We are ready to welcome you","contact.text":"Call us to check availability and confirm your treatment.",
+    "footer.locationTitle":"Location",
+    "footer.address":"Km. 105.5 Tijuana–Ensenada Highway, El Sauzal, Ensenada, Baja California.",
+    "footer.map":"View location",
+    "footer.hotel":"Hotel & Restaurant",
     "footer.note":"Informational website. Prices are subject to confirmation when booking."
   }
 };
