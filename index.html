@@ -27,6 +27,7 @@
       <a href="#galeria" data-i18n="nav.gallery">Galería</a>
       <a href="#informacion" data-i18n="nav.info">Información</a>
       <a href="#contacto" data-i18n="nav.contact">Contacto</a>
+      <a href="https://lasrosas.com" target="_blank" rel="noopener" data-i18n="nav.hotel">Hotel y Restaurante</a>
     </nav>
 
     <div class="header-actions">
@@ -250,13 +251,52 @@
     </section>
   </main>
 
-  <footer>
-    <div class="brand footer-brand">
-      <span class="brand-mark">◖</span>
-      <span><strong>LAS ROSAS</strong><small>HOTEL & SPA</small></span>
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div class="brand footer-brand">
+        <span class="brand-mark">◖</span>
+        <span>
+          <strong>LAS ROSAS</strong>
+          <small>HOTEL & SPA</small>
+        </span>
+      </div>
+
+      <div class="footer-location">
+        <p class="footer-label" data-i18n="footer.locationTitle">Ubicación</p>
+        <address data-i18n="footer.address">
+          Km. 105.5 Carretera Tijuana–Ensenada, El Sauzal, Ensenada, B.C.
+        </address>
+      </div>
+
+      <div class="footer-links">
+        <a
+          class="footer-button"
+          href="https://www.google.com/maps/search/?api=1&query=Km.+105.5+Carretera+Tijuana-Ensenada,+El+Sauzal,+Ensenada,+B.C."
+          target="_blank"
+          rel="noopener"
+          data-i18n="footer.map"
+        >
+          Ver ubicación
+        </a>
+
+        <a
+          class="footer-button footer-button-light"
+          href="https://lasrosas.com"
+          target="_blank"
+          rel="noopener"
+          data-i18n="footer.hotel"
+        >
+          Hotel y Restaurante
+        </a>
+      </div>
     </div>
-    <p data-i18n="footer.note">Página informativa. Precios sujetos a confirmación al reservar.</p>
-    <p>© <span id="year"></span> Las Rosas Hotel & Spa</p>
+
+    <div class="footer-bottom">
+      <p data-i18n="footer.note">
+        Página informativa. Precios sujetos a confirmación al reservar.
+      </p>
+      <p>© <span id="year"></span> Las Rosas Hotel & Spa</p>
+    </div>
   </footer>
 
   <div id="lightbox" class="lightbox" aria-hidden="true">
@@ -270,4 +310,3 @@
   <script src="app.js"></script>
 </body>
 </html>
-
